@@ -3,7 +3,7 @@ CyberGIS OSM Mappings (cybergis-osm-mappings)
 
 ## Description
 
-This repository contains OSM mappings for use by GeoGit.  See the "Using GeoGit wish OpenStreetMap Data" page for more information at: [http://geogit.org/docs/interaction/osm.html](http://geogit.org/docs/interaction/osm.html).  The mappings folder includes the mappings in json format.  The mappings are broken out into namespaces/categories, mostly following ISO categories.  These are standardized mappings that should cover most basic OSM use cases.
+This repository contains OSM mappings for use by GeoGit.  See the "Using GeoGit wish OpenStreetMap Data" page for more information at: [http://geogit.org/docs/interaction/osm.html](http://geogit.org/docs/interaction/osm.html).  The mappings folder includes the mappings in json format.  The mappings are broken out into namespaces/categories, mostly following ISO categories.  These are standardized mappings that should represent most basic OSM features, but also cover common mispellings and mistaggings.
 
 See the guides in the cybergis-guides repo at [https://github.com/state-hiu/cybergis-guides/](https://github.com/state-hiu/cybergis-guides), for examples on use these mappings.
 
