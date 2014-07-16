@@ -1,0 +1,20 @@
+{
+  "rules":[
+    {
+      "name":"osm_medical_centers",
+      "filter":{
+        "amenity":["hospital"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POINT"},
+        "photos": {"name":"media", "type":"STRING"},
+        "amenity":{"name":"amenity", "type":"STRING"},
+        "name":{"name":"name_alias","type":"STRING"},
+        "operational_status":{"status","type":"STRING"},
+        "operator_type":{"op_type","type":"STRING"},
+        "capacity:beds":{"name":"beds", "type":"STRING"},
+        "health_facility_type":{"name":"facility_type", "type":"STRING"}
+      }
+    }
+  ]
+}
