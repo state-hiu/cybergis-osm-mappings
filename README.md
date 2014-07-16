@@ -26,10 +26,18 @@ Logout and Login
 
 ## Usage
 
+## Mappings
+
+### Basic
+
+1.  Buildings and Roads (basic:buildings_and_roads)
+
+### Health
+1.  Medical Centers (health:osm_medical_centers)
 
 ## Contributing
 
-HIU is currently accepting pull requests for this repository.  Please provide a human-readable description of the mappings in the pull request.
+HIU is currently accepting pull requests for this repository.  Please provide a human-readable description of the mappings in the pull request.  Additionally, update the README.md file as needed.
 
 ## License
 This project constitutes a work of the United States Government and is not subject to domestic copyright protection under 17 USC § 105.
