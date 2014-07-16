@@ -22,7 +22,6 @@ As root, execute the following commands:
 cd /opt
 git clone https://github.com/state-hiu/cybergis-osm-mappings.git cybergis-osm-mappings.git
 ```
-Logout and Login
 
 ## Usage
 
