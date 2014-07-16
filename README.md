@@ -26,14 +26,14 @@ Logout and Login
 
 ## Usage
 
-## Mappings
+### Mappings
 
-### Basic
+#### Basic
 
-1.  Buildings and Roads (basic:buildings_and_roads)
+1.  Buildings and Roads (basic:buildings_and_roads) [link](https://raw.githubusercontent.com/state-hiu/cybergis-osm-mappings/master/mappings/basic/buildings_and_roads.json)
 
-### Health
-1.  Medical Centers (health:osm_medical_centers)
+#### Health
+1.  Medical Centers (health:osm_medical_centers) [link](https://raw.githubusercontent.com/state-hiu/cybergis-osm-mappings/master/mappings/health/medical_centers.json)
 
 ## Contributing
 
