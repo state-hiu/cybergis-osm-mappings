@@ -3,7 +3,7 @@ CyberGIS OSM Mappings (cybergis-osm-mappings)
 
 ## Description
 
-This repository contains OSM mappings for use by GeoGit.  See the "Using GeoGit wish OpenStreetMap Data" page for more information at: [http://geogit.org/docs/interaction/osm.html](http://geogit.org/docs/interaction/osm.html).
+This repository contains OSM mappings for use by GeoGit.  See the "Using GeoGit wish OpenStreetMap Data" page for more information at: [http://geogit.org/docs/interaction/osm.html](http://geogit.org/docs/interaction/osm.html).  The mappings folder includes the mappings in json format.  The mappings are broken out into namespaces/categories, mostly following ISO categories.
 
 See the guides in the cybergis-guides repo at [https://github.com/state-hiu/cybergis-guides/](https://github.com/state-hiu/cybergis-guides), for examples on use these mappings.
 
@@ -15,7 +15,7 @@ The Rapid Opensource Geospatial User-Driven Enterprise (ROGUE) Joint Capabilitie
 
 ## Installation
 
-These installation instructions are subject to change.  Right now, since there are non-debian package dependencies, you can really extract the scripts to whatever directory you want.  The instructions below are suggested as they mirror Linux best practices for external packages.  Please be careful when installing gdal-bin and python-gdal packages as they may require different version of some packages than other programs, such as the OpenGeo Suite.  It is recommended to test this and other GDAL scripts within a vagrant environment first.
+These installation instructions are subject to change.  Right now, since there are non-debian package dependencies, you can really extract the repo to whatever directory you want.  The instructions below are suggested as they mirror Linux best practices for external packages.
 
 As root, execute the following commands:
 ```
