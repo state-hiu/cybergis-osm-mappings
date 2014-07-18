@@ -1,9 +1,9 @@
 {
   "rules":[
     {
-      "name":"osm_schools",
+      "name":"osm_banks",
       "filter":{
-        "amenity":["school","university"]
+        "amenity":["bank"]
       },
       "fields":
       {
