@@ -3,7 +3,7 @@
     {
       "name":"osm_aerodromes",
       "filter":{
-        "aeroway":["aerodrome"]
+        "aeroway":["aerodrome","international"]
       },
       "fields":
       {
@@ -14,7 +14,8 @@
         "aeroway":{"name":"aeroway", "type":"STRING"},
         "iata":{"name":"iata", "type":"STRING"},
         "icao":{"name":"icao", "type":"STRING"},
-        "operator":{"name":"operator", "type":"STRING"}
+        "operator":{"name":"operator", "type":"STRING"},
+        "aerodrome_type":{"name":"aerodrome_type", "type":"STRING"}
       }
     }
   ]
