@@ -1,0 +1,21 @@
+{
+  "rules":[
+    {
+      "name":"osm_hotels",
+      "filter":
+      {
+         "tourism":["hotel"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"POINT"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "name":{"name":"name", "type":"STRING"},
+        "internet_access":{"name":"internet_access", "type":"STRING"},
+        "operator":{"name":"operator", "type":"STRING"},
+        "website":{"name":"website", "type":"STRING"},
+      }
+    }
+  ]
+}
