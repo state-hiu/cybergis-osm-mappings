@@ -1,0 +1,18 @@
+{
+  "rules":[
+    {
+      "name":"osm_buildings_damaged_or_destroyed",
+      "filter":{
+        "geom":["closed"],
+        "building":["damaged","collapsed"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "building":{"name":"building", "type":"STRING"},
+        "typhoon_damage":{"name":"typhoon_damage", "type":"STRING"}
+      }
+    }
+  ]
+}
