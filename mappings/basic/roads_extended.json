@@ -30,7 +30,7 @@
       "name":"osm_roads_main",
       "filter":
       {
-         "highway":["trunk","primary"]
+         "highway":["motorway","trunk","primary"]
       },
       "fields":
       {
