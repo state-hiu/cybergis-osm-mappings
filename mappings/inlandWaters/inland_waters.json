@@ -1,0 +1,31 @@
+{
+  "rules":[
+    {
+      "name":"osm_rivers",
+      "filter":
+      {
+         "waterway":["river"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"LINESTRING"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "name":{"name":"name", "type":"STRING"},
+        "boat":{"name":"boat", "type":"STRING"}
+      }
+    },
+    {
+      "name":"osm_lakes",
+      "filter":{
+        "natural":["water"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "name":{"name":"name", "type":"STRING"}
+      }
+    }
+  ]
+}
