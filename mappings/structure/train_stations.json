@@ -1,0 +1,19 @@
+{
+  "rules":[
+    {
+      "name":"osm_train_stations",
+      "filter":
+      {
+         "railway":["station"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"POINT"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "name":{"name":"name", "type":"STRING"},
+        "platforms":{"name":"platforms", "type":"STRING"}
+      }
+    }
+  ]
+}
