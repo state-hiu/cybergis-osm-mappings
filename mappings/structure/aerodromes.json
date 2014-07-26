@@ -1,0 +1,23 @@
+{
+  "rules":[
+    {
+      "name":"osm_aerodromes",
+      "filter":{
+        "aeroway":["aerodrome","international"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"MULTIPOLYGON"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "type":{"name":"type", "type":"STRING"},
+        "name":{"name":"name", "type":"STRING"},
+        "aeroway":{"name":"aeroway", "type":"STRING"},
+        "iata":{"name":"iata", "type":"STRING"},
+        "icao":{"name":"icao", "type":"STRING"},
+        "operator":{"name":"operator", "type":"STRING"},
+        "aerodrome_type":{"name":"aerodrome_type", "type":"STRING"}
+      }
+    }
+  ]
+}
