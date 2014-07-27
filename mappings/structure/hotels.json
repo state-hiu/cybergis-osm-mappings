@@ -14,7 +14,7 @@
         "name":{"name":"name", "type":"STRING"},
         "internet_access":{"name":"internet_access", "type":"STRING"},
         "operator":{"name":"operator", "type":"STRING"},
-        "website":{"name":"website", "type":"STRING"},
+        "website":{"name":"website", "type":"STRING"}
       }
     }
   ]
