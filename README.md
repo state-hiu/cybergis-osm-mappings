@@ -23,6 +23,8 @@ cd /opt
 git clone https://github.com/state-hiu/cybergis-osm-mappings.git cybergis-osm-mappings.git
 ```
 
+The CyberGIS Scripts repo (cybergis-scripts) also contains some tools for automating the process of creating OpenStreetMap extracts.  See the installation guide at [https://github.com/state-hiu/cybergis-scripts](https://github.com/state-hiu/cybergis-scripts).
+
 ## Usage
 
 ### Mappings
