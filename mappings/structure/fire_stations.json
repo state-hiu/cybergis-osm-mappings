@@ -1,0 +1,18 @@
+{
+  "rules":[
+    {
+      "name":"osm_fire_stations",
+      "filter":
+      {
+         "amenity":["fire_station"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"POINT"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "name":{"name":"name", "type":"STRING"}
+      }
+    }
+  ]
+}
