@@ -12,7 +12,8 @@
         "photos": {"name":"media", "type":"STRING"},
         "name":{"name":"name", "type":"STRING"},
         "wikipedia":{"name":"operator", "type":"STRING"},
-        "website":{"name":"website", "type":"STRING"}
+        "website":{"name":"website", "type":"STRING"},
+        "atm":{"name":"atm", "type":"STRING"}
       }
     }
   ]
