@@ -4,7 +4,7 @@
       "name":"osm_roads_main",
       "filter":
       {
-         "highway":["motorway","trunk","primary"]
+         "highway":["motorway","trunk","primary","secondary"]
       },
       "fields":
       {
