@@ -1,0 +1,26 @@
+{
+  "rules":[
+    {
+      "name":"osm_roads_main",
+      "filter":
+      {
+         "highway":["motorway","trunk","primary"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"LINESTRING"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "name":{"name":"name", "type":"STRING"},
+        "ref":{"name":"ref", "type":"STRING"},
+        "highway":{"name":"highway", "type":"STRING"},
+        "lanes":{"name":"lanes", "type":"STRING"},
+        "oneway":{"name":"oneway", "type":"STRING"},
+        "surface":{"name":"surface", "type":"STRING"},
+        "access":{"name":"access", "type":"STRING"},
+        "source":{"name":"source", "type":"STRING"},
+        "motor_vehicle":{"name":"motor_vehicle", "type":"STRING"}
+      }
+    }
+  ]
+}
