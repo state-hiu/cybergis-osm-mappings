@@ -14,7 +14,7 @@
         "operator_type":{"name": "op_type","type":"STRING"},
         "capacity:beds":{"name":"beds", "type":"STRING"},
         "health_facility_type":{"name":"facility_type", "type":"STRING"},
-        "Designation":{"name":"Designation", "type":"STRING"}
+        "designation":{"name":"designation", "type":"STRING"}
       }
     }
   ]
