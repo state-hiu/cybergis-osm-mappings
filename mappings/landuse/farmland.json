@@ -1,0 +1,14 @@
+{
+  "rules":[
+    {
+      "name":"osm_landuse_farmland",
+      "filter":{
+        "landuse":["farm","farmland"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"}
+      }
+    }
+  ]
+}
