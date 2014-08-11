@@ -3,8 +3,8 @@
     {
       "name":"osm_landuse_grassland",
       "filter":{
-        "landuse":["grass","grassland"].
-        "natural":["wood","grassland"].
+        "landuse":["grass","grassland"],
+        "natural":["wood","grassland"],
       },
       "fields":{
         "geom":{"name":"geom","type":"POLYGON"},
