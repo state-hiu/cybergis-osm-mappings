@@ -33,7 +33,7 @@
         "building":[
           "yes","residential","house","garage","detached","terrace","apartments", "hut", "industrial", "roof", "garages", 
           "terrace", "farm_auxiliary", "commercial", "retail", "school", "church", "shed", "manufacture", "greenhouse",
-          "farm","office","cabin","barn"
+          "farm","office","cabin","barn","construction"
         ],
         "aeroway":["terminal"]
       },
