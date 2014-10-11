@@ -73,6 +73,16 @@
         "geom":{"name":"geom","type":"POLYGON"},
         "name":{"name":"name", "type":"STRING"}
       }
+    },
+    {
+      "name":"osm_landuse_orchard",
+      "filter":{
+        "landuse":["orchard"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"}
+      }
     }
   ]
 }
