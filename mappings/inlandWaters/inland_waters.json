@@ -16,6 +16,18 @@
       }
     },
     {
+      "name":"osm_river_banks",
+      "filter":{
+        "waterway":["riverbank"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "name":{"name":"name", "type":"STRING"}
+      }
+    }
+    {
       "name":"osm_lakes",
       "filter":{
         "natural":["water"]
