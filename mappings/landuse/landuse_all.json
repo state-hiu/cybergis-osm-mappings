@@ -63,6 +63,16 @@
         "geom":{"name":"geom","type":"POLYGON"},
         "name":{"name":"name", "type":"STRING"}
       }
+    },
+    {
+      "name":"osm_landuse_forest",
+      "filter":{
+        "landuse":["forest"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"}
+      }
     }
   ]
 }
