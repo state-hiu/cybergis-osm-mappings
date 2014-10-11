@@ -53,6 +53,16 @@
         "geom":{"name":"geom","type":"POLYGON"},
         "name":{"name":"name", "type":"STRING"}
       }
+    },
+    {
+      "name":"osm_landuse_military",
+      "filter":{
+        "landuse":["military"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"}
+      }
     }
   ]
 }
