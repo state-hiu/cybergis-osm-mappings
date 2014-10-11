@@ -16,7 +16,7 @@
       }
     },
     {
-      "name":"osm_river_banks",
+      "name":"osm_riverbanks",
       "filter":{
         "waterway":["riverbank"]
       },
