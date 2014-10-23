@@ -3,7 +3,7 @@
     {
       "name":"osm_landuse_farmland",
       "filter":{
-        "landuse":["farm","farmland"]
+        "landuse":["farm","farmland","farmyard"]
       },
       "fields":{
         "geom":{"name":"geom","type":"POLYGON"},
