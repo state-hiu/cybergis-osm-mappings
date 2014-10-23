@@ -4,7 +4,7 @@
       "name":"osm_rivers",
       "filter":
       {
-         "waterway":["river","stream"]
+         "waterway":["river","stream","ditch"]
       },
       "fields":
       {
