@@ -37,7 +37,7 @@
         "status": {"name":"status", "type":"STRING"},
         "photos": {"name":"media", "type":"STRING"},
         "name":{"name":"name", "type":"STRING"},
-        "water":{"water":"water", "type":"STRING"}
+        "water":{"name":"water", "type":"STRING"}
       }
     }
   ]
