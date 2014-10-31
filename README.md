@@ -27,6 +27,8 @@ The CyberGIS Scripts repo (cybergis-scripts) also contains some tools for automa
 
 ## Usage
 
+Extents are currently limited to bounding boxes in the `S W N E` format to conform closely to the `osm download` command explained in the [Downloading data from an OSM Server](http://geogig.org/docs/interaction/osm.html#downloading-data-from-an-osm-serve) section of the GeoGig User Manual.
+
 The easist mapping to start with is the `basic:buildings_and_roads` mapping available at [[link]](https://github.com/state-hiu/cybergis-osm-mappings/blob/master/mappings/basic/buildings_and_roads.json).
 
 You can learn more about OSM mappings from the GeoGig User Manual at [http://geogig.org/docs/interaction/osm.html#data-mapping](http://geogig.org/docs/interaction/osm.html#data-mapping).
