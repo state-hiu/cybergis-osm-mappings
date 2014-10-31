@@ -10,6 +10,7 @@
       {
         "geom":{"name":"geom", "type":"POINT"},
         "name":{"name":"name", "type":"STRING"},
+        "alt_name":{"name":"alt_name", "type":"STRING"},
         "source":{"name":"source", "type":"STRING"},
         "gns_ufi":{"name":"gns_ufi", "type":"STRING"},
         "admin_level":{"name":"admin_level", "type":"STRING"}
