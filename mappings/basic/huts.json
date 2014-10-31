@@ -1,0 +1,16 @@
+{
+  "rules":[
+    {
+      "name":"osm_huts",
+      "filter":{
+        "building":["hut"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"POLYGON"},
+        "building": {"name":"building", "type":"STRING"},
+        "source": {"name":"source", "type":"STRING"}
+      }
+    }
+  ]
+}
