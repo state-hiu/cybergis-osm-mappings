@@ -1,0 +1,18 @@
+{
+  "rules":[
+    {
+      "name":"osm_villages",
+      "filter":
+      {
+         "place":["village"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"POINT"},
+        "name":{"name":"name", "type":"STRING"},
+        "source":{"name":"source", "type":"STRING"},
+        "gns_ufi":{"name":"gns_ufi", "type":"STRING"}
+      }
+    }
+  ]
+}
