@@ -55,6 +55,7 @@ Below is a list of mapping namespaces.
 3.  [Health](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/health)
 4.  [Inland Waters](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/inlandWaters)
 5.  [Landuse](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/landuse)
+6.  [Placenames](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/placenames)
 6.  [Roads](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/roads)
 7.  [Structure](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/structure)
 
