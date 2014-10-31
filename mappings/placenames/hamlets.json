@@ -1,7 +1,7 @@
 {
   "rules":[
     {
-      "name":"osm_hamlets",
+      "name":"osm_placenames_hamlets",
       "filter":
       {
          "place":["hamlet"]
