@@ -3,6 +3,7 @@
     {
       "name":"osm_huts",
       "filter":{
+        "geom":["closed"],
         "building":["hut"]
       },
       "fields":
