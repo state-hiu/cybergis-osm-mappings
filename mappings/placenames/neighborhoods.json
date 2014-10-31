@@ -1,7 +1,7 @@
 {
   "rules":[
     {
-      "name":"osm_placenames_neighborhood",
+      "name":"osm_placenames_neighborhoods",
       "filter":
       {
          "place":["neighborhood","neighbourhood"]
