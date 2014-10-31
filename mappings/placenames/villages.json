@@ -1,7 +1,7 @@
 {
   "rules":[
     {
-      "name":"osm_villages",
+      "name":"osm_placenames_villages",
       "filter":
       {
          "place":["village"]
