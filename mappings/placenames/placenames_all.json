@@ -11,7 +11,8 @@
         "geom":{"name":"geom", "type":"POINT"},
         "name":{"name":"name", "type":"STRING"},
         "source":{"name":"source", "type":"STRING"},
-        "gns_ufi":{"name":"gns_ufi", "type":"STRING"}
+        "gns_ufi":{"name":"gns_ufi", "type":"STRING"},
+        "admin_level":{"name":"admin_level", "type":"STRING"}
       }
     },
     {
@@ -25,7 +26,8 @@
         "geom":{"name":"geom", "type":"POINT"},
         "name":{"name":"name", "type":"STRING"},
         "source":{"name":"source", "type":"STRING"},
-        "gns_ufi":{"name":"gns_ufi", "type":"STRING"}
+        "gns_ufi":{"name":"gns_ufi", "type":"STRING"},
+        "admin_level":{"name":"admin_level", "type":"STRING"}
       }
     }
   ]
