@@ -1,0 +1,16 @@
+{
+  "rules":[
+    {
+      "name":"osm_trees",
+      "filter":{
+        "natural":["tree"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"POINT"},
+        "natural": {"name":"natural", "type":"STRING"},
+        "source": {"name":"source", "type":"STRING"}
+      }
+    }
+  ]
+}
