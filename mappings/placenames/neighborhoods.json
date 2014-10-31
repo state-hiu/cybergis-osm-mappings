@@ -1,0 +1,19 @@
+{
+  "rules":[
+    {
+      "name":"osm_placenames_neighborhood",
+      "filter":
+      {
+         "place":["neighborhood","neighbourhood"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"POINT"},
+        "name":{"name":"name", "type":"STRING"},
+        "source":{"name":"source", "type":"STRING"},
+        "gns_ufi":{"name":"gns_ufi", "type":"STRING"},
+        "admin_level":{"name":"admin_level", "type":"STRING"}
+      }
+    }
+  ]
+}
