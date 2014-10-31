@@ -27,7 +27,7 @@ The CyberGIS Scripts repo (cybergis-scripts) also contains some tools for automa
 
 ## Usage
 
-The easist mapping to start with is the `basic:buildings_and_roads` mapping available at ([[link]](https://github.com/state-hiu/cybergis-osm-mappings/blob/master/mappings/basic/buildings_and_roads.json).
+The easist mapping to start with is the `basic:buildings_and_roads` mapping available at [[link]](https://github.com/state-hiu/cybergis-osm-mappings/blob/master/mappings/basic/buildings_and_roads.json).
 
 To learn how to create extracts check out the `OSM Extracts CyberGIS Guide` at [[link]](https://github.com/state-hiu/cybergis-guides/blob/master/1.0/cybergis-guides-osmextracts-1.0.md).  You can also look at [Khulna, Bangladesh](https://github.com/state-hiu/cybergis-scripts/tree/master/examples/khulna) and [Ebola Crisis example](https://github.com/state-hiu/cybergis-scripts/tree/master/examples/ebola).
 
