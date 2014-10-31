@@ -39,9 +39,9 @@
       },
       "fields":{
         "geom":{"name":"geom","type":"POLYGON"},
+        "building":{"name":"building", "type":"STRING"},
         "status": {"name":"status", "type":"STRING"},
         "photos": {"name":"media", "type":"STRING"},
-        "building":{"name":"building", "type":"STRING"},
         "aeroway":{"name":"aeroway", "type":"STRING"}
       }
     }
