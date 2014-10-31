@@ -27,8 +27,18 @@ The CyberGIS Scripts repo (cybergis-scripts) also contains some tools for automa
 
 ## Usage
 
+The easist mapping to start with is the `basic:buildings_and_roads` mapping ([[link]](https://github.com/state-hiu/cybergis-osm-mappings/blob/master/mappings/basic/buildings_and_roads.json).
 
-1.  Buildings and Roads (basic:buildings_and_roads) [[link]](https://github.com/state-hiu/cybergis-osm-mappings/blob/master/mappings/basic/buildings_and_roads.json
+### Extents
+
+Below is a list of extent namespaces.
+
+1. [Bangladesh](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/bangladesh)
+2. [Dominican Republic](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/dominican_republic)
+3. [Honduras](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/honduras)
+4. [Liberia](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/liberia)
+5. [Sierra Leone](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/sierra_leone)
+6. [Turkey](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/turkey)
 
 ### Mappings
 
