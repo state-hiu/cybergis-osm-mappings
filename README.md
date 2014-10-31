@@ -15,7 +15,7 @@ The Rapid Opensource Geospatial User-Driven Enterprise (ROGUE) Joint Capabilitie
 
 ## Installation
 
-These installation instructions are subject to change.  Right now, since there are non-debian package dependencies, you can really extract the repo to whatever directory you want.  The instructions below are suggested as they mirror Linux best practices for external packages.
+These installation instructions are subject to change.  Right now, since there are no debian package dependencies, you can really extract the repo to whatever directory you want.  The instructions below are suggested as they mirror Linux best practices for external packages.
 
 As root, execute the following commands:
 ```
@@ -27,14 +27,20 @@ The CyberGIS Scripts repo (cybergis-scripts) also contains some tools for automa
 
 ## Usage
 
+
+1.  Buildings and Roads (basic:buildings_and_roads) [[link]](https://github.com/state-hiu/cybergis-osm-mappings/blob/master/mappings/basic/buildings_and_roads.json
+
 ### Mappings
 
-#### Basic
+Below is a list of mapping namespaces.
 
-1.  Buildings and Roads (basic:buildings_and_roads) [[link]](https://github.com/state-hiu/cybergis-osm-mappings/blob/master/mappings/basic/buildings_and_roads.json)
-
-#### Health
-1.  Medical Centers (health:osm_medical_centers) [[link]](https://raw.githubusercontent.com/state-hiu/cybergis-osm-mappings/master/mappings/health/medical_centers.json)
+1.  [Basic](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/basic)
+2.  [Education](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/education)
+3.  [Health](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/health)
+4.  [Inland Waters](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/inlandWaters)
+5.  [Landuse](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/landuse)
+6.  [Roads](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/roads)
+7.  [Structure](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/structure)
 
 ## Contributing
 
