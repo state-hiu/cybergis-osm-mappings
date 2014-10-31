@@ -9,6 +9,7 @@
       "fields":
       {
         "geom":{"name":"geom", "type":"POINT"},
+        "place":{"name":"place", "type":"STRING"},
         "name":{"name":"name", "type":"STRING"},
         "alt_name":{"name":"alt_name", "type":"STRING"},
         "source":{"name":"source", "type":"STRING"},
