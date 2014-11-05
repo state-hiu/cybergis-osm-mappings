@@ -3,7 +3,7 @@
     {
       "name":"osm_medical_centers",
       "filter":{
-        "amenity":["hospital","doctors","clinic"]
+        "amenity":["hospital","doctor","doctors","clinic"]
       },
       "fields":{
         "geom":{"name":"geom","type":"POINT"},
