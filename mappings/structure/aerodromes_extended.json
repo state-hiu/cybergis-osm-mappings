@@ -42,7 +42,7 @@
         "source":{"name":"source", "type":"STRING"}
       }
     },
-        {
+    {
       "name":"osm_aerodromes_points_international",
       "filter":{
         "aeroway":["international"]
