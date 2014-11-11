@@ -8,23 +8,27 @@
       },
       "fields":
       {
-        "geom":{"name":"geom", "type":"LINESTRING"},
+        "geom": {"name":"geom", "type":"LINESTRING"},
         "status": {"name":"status", "type":"STRING"},
         "photos": {"name":"media", "type":"STRING"},
-        "name":{"name":"name", "type":"STRING"},
-        "boat":{"name":"boat", "type":"STRING"}
+        "name": {"name":"name", "type":"STRING"},
+        "boat": {"name":"boat", "type":"STRING"}
       }
     },
     {
       "name":"osm_lakes",
-      "filter":{
-        "natural":["water"]
+      "filter":
+      {
+        "natural":["water"],
+        "water":["lake"]
       },
-      "fields":{
-        "geom":{"name":"geom","type":"POLYGON"},
+      "fields":
+      {
+        "geom": {"name":"geom","type":"POLYGON"},
         "status": {"name":"status", "type":"STRING"},
         "photos": {"name":"media", "type":"STRING"},
-        "name":{"name":"name", "type":"STRING"}
+        "name": {"name":"name", "type":"STRING"},
+        "boat": {"name":"boat", "type":"STRING"}
       }
     }
   ]
