@@ -14,7 +14,6 @@
         "name": {"name":"name", "type":"STRING"},
         "boat": {"name":"boat", "type":"STRING"},
         "intermittent": {"name":"intermittent", "type":"STRING"}
-        }
       }
     },
     {
