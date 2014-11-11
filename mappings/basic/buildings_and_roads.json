@@ -33,15 +33,15 @@
         "building":[
           "yes","residential","house","garage","detached","terrace","apartments", "hut", "industrial", "roof", "garages", 
           "terrace", "farm_auxiliary", "commercial", "retail", "school", "church", "shed", "manufacture", "greenhouse",
-          "farm","office","cabin","barn"
+          "farm","office","cabin","barn","construction"
         ],
         "aeroway":["terminal"]
       },
       "fields":{
         "geom":{"name":"geom","type":"POLYGON"},
+        "building":{"name":"building", "type":"STRING"},
         "status": {"name":"status", "type":"STRING"},
         "photos": {"name":"media", "type":"STRING"},
-        "building":{"name":"building", "type":"STRING"},
         "aeroway":{"name":"aeroway", "type":"STRING"}
       }
     }

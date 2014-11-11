@@ -3,7 +3,7 @@ CyberGIS OSM Mappings (cybergis-osm-mappings)
 
 ## Description
 
-This repository contains OSM mappings for use by GeoGit.  See the "Using GeoGit wish OpenStreetMap Data" page for more information at: [http://geogit.org/docs/interaction/osm.html](http://geogit.org/docs/interaction/osm.html).  The mappings folder includes the mappings in json format.  The mappings are broken out into namespaces/categories, mostly following ISO categories.  These are standardized mappings that should represent most basic OSM features, but also cover common mispellings and mistaggings.
+This repository contains OpenStreetmap (OSM) mappings for use by GeoGig.  See the "Using GeoGig with OpenStreetMap Data" page for more information at: [http://geogig.org/docs/interaction/osm.html](http://geogig.org/docs/interaction/osm.html).  The mappings folder includes the mappings in json format.  The mappings are broken out into namespaces/categories, mostly following ISO categories.  These are standardized mappings that should represent most basic OSM features, but also cover common mispellings and mistaggings.
 
 See the guides in the cybergis-guides repo at [https://github.com/state-hiu/cybergis-guides/](https://github.com/state-hiu/cybergis-guides), for examples on use these mappings.
 
@@ -11,11 +11,11 @@ See the guides in the cybergis-guides repo at [https://github.com/state-hiu/cybe
 The Humanitarian Information Unit has been developing a sophisticated geographic computing infrastructure referred to as the CyberGIS. The CyberGIS provides highly available, scalable, reliable, and timely geospatial services capable of supporting multiple concurrent projects.  The CyberGIS relies on primarily open source projects, such as PostGIS, GeoServer, GDAL, GeoGit, OGR, and OpenLayers.  The name CyberGIS is dervied from the term geospatial cyberinfrastructure.
 
 ### ROGUE
-The Rapid Opensource Geospatial User-Driven Enterprise (ROGUE) Joint Capabilities Technology Demonstration (JCTD) is a two-year research & development project developing the technology for distributed geographic data creation and synchronization in a disconnected environement.  See [http://rogue.lmnsolutions.com](http://rogue.lmnsolutions.com) for more information.  HIU is leveraging the technology developed through ROGUE to build out the CyberGIS into a robust globally distributed infrastruture.
+The Rapid Opensource Geospatial User-Driven Enterprise (ROGUE) Joint Capabilities Technology Demonstration (JCTD) is a two-year research & development project developing the technology for distributed geographic data creation and synchronization in a disconnected environement.  This new technology taken altogether is referred to as GeoSHAPE.  See [http://geoshape.org](http://geoshape.org) for more information.  HIU is leveraging the technology developed through ROGUE to build out the CyberGIS into a robust globally distributed infrastruture.
 
 ## Installation
 
-These installation instructions are subject to change.  Right now, since there are non-debian package dependencies, you can really extract the repo to whatever directory you want.  The instructions below are suggested as they mirror Linux best practices for external packages.
+These installation instructions are subject to change.  Right now, since there are no debian package dependencies, you can really extract the repo to whatever directory you want.  The instructions below are suggested as they mirror Linux best practices for external packages.
 
 As root, execute the following commands:
 ```
@@ -27,14 +27,37 @@ The CyberGIS Scripts repo (cybergis-scripts) also contains some tools for automa
 
 ## Usage
 
+Extents are currently limited to bounding boxes in the `S W N E` format to conform closely to the `osm download` command explained in the [Downloading data from an OSM Server](http://geogig.org/docs/interaction/osm.html#downloading-data-from-an-osm-serve) section of the GeoGig User Manual.  Complex geometry extents are possible but are not sufficiently integrated to work at scale.  You can do complex geometry extents, but it currently requires hand writing filters using the [Overpass Query Language](http://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide).
+
+The easist mapping to start with is the `basic:buildings_and_roads` mapping available at [[link]](https://github.com/state-hiu/cybergis-osm-mappings/blob/master/mappings/basic/buildings_and_roads.json).
+
+You can learn more about OSM mappings from the GeoGig User Manual at [http://geogig.org/docs/interaction/osm.html#data-mapping](http://geogig.org/docs/interaction/osm.html#data-mapping).
+
+To learn how to create extracts check out the OSM Extracts CyberGIS Guide at [[link]](https://github.com/state-hiu/cybergis-guides/blob/master/1.0/cybergis-guides-osmextracts-1.0.md).  You can also look at examples of extracts of [Khulna, Bangladesh](https://github.com/state-hiu/cybergis-scripts/tree/master/examples/khulna) and [Ebola Crisis](https://github.com/state-hiu/cybergis-scripts/tree/master/examples/ebola).
+
+### Extents
+
+Below is a list of extent namespaces.
+
+1. [Bangladesh](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/bangladesh)
+2. [Dominican Republic](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/dominican_republic)
+3. [Honduras](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/honduras)
+4. [Liberia](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/liberia)
+5. [Sierra Leone](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/sierra_leone)
+6. [Turkey](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/extents/turkey)
+
 ### Mappings
 
-#### Basic
+Below is a list of mapping namespaces.
 
-1.  Buildings and Roads (basic:buildings_and_roads) [[link]](https://github.com/state-hiu/cybergis-osm-mappings/blob/master/mappings/basic/buildings_and_roads.json)
-
-#### Health
-1.  Medical Centers (health:osm_medical_centers) [[link]](https://raw.githubusercontent.com/state-hiu/cybergis-osm-mappings/master/mappings/health/medical_centers.json)
+1.  [Basic](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/basic)
+2.  [Education](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/education)
+3.  [Health](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/health)
+4.  [Inland Waters](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/inlandWaters)
+5.  [Landuse](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/landuse)
+6.  [Placenames](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/placenames)
+6.  [Roads](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/roads)
+7.  [Structure](https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings/structure)
 
 ## Contributing
 

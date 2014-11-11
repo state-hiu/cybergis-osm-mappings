@@ -1,0 +1,15 @@
+{
+  "rules":[
+    {
+      "name":"osm_landuse_wetland",
+      "filter":{
+        "natural":["wetland"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"},
+        "wetland":{"name":"wetland", "type":"STRING"}
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "rules":[
+    {
+      "name":"osm_placenames_consolidated",
+      "filter":
+      {
+         "place":["city","hamlet","neighborhood","neighbourhood","village"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"POINT"},
+        "place":{"name":"place", "type":"STRING"},
+        "name":{"name":"name", "type":"STRING"},
+        "alt_name":{"name":"alt_name", "type":"STRING"},
+        "source":{"name":"source", "type":"STRING"},
+        "gns_ufi":{"name":"gns_ufi", "type":"STRING"},
+        "admin_level":{"name":"admin_level", "type":"STRING"},
+        "population":{"name":"population", "type":"STRING"}
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@
       "name":"osm_rivers",
       "filter":
       {
-         "waterway":["river"]
+         "waterway":["river","stream","ditch"]
       },
       "fields":
       {
@@ -12,7 +12,22 @@
         "status": {"name":"status", "type":"STRING"},
         "photos": {"name":"media", "type":"STRING"},
         "name": {"name":"name", "type":"STRING"},
-        "boat": {"name":"boat", "type":"STRING"}
+        "boat": {"name":"boat", "type":"STRING"},
+        "intermittent": {"name":"intermittent", "type":"STRING"}
+        }
+      }
+    },
+    {
+      "name":"osm_riverbanks",
+      "filter":{
+        "waterway":["riverbank"]
+      },
+      "fields":
+      {
+        "geom": {"name":"geom","type":"POLYGON"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "name": {"name":"name", "type":"STRING"}
       }
     },
     {
@@ -28,7 +43,8 @@
         "status": {"name":"status", "type":"STRING"},
         "photos": {"name":"media", "type":"STRING"},
         "name": {"name":"name", "type":"STRING"},
-        "boat": {"name":"boat", "type":"STRING"}
+        "boat": {"name":"boat", "type":"STRING"},
+        "water":{"name":"water", "type":"STRING"}
       }
     }
   ]

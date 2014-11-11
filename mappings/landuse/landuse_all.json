@@ -1,0 +1,88 @@
+{
+  "rules":[
+    {
+      "name":"osm_landuse_farmland",
+      "filter":{
+        "landuse":["farm","farmland"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"},
+        "animal":{"name":"animal", "type":"STRING"},
+        "crop":{"name":"crop", "type":"STRING"}
+      }
+    },
+    {
+      "name":"osm_landuse_grassland",
+      "filter":{
+        "landuse":["grass","grassland"],
+        "natural":["wood","grassland"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"}
+      }
+    },
+    {
+      "name":"osm_landuse_residential",
+      "filter":{
+        "landuse":["residential"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"}
+      }
+    },
+    {
+      "name":"osm_landuse_wetland",
+      "filter":{
+        "natural":["wetland"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"},
+        "wetland":{"name":"wetland", "type":"STRING"}
+      }
+    },
+    {
+      "name":"osm_landuse_beach",
+      "filter":{
+        "natural":["beach"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"}
+      }
+    },
+    {
+      "name":"osm_landuse_military",
+      "filter":{
+        "landuse":["military"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"}
+      }
+    },
+    {
+      "name":"osm_landuse_forest",
+      "filter":{
+        "landuse":["forest"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"}
+      }
+    },
+    {
+      "name":"osm_landuse_orchard",
+      "filter":{
+        "landuse":["orchard"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"}
+      }
+    }
+  ]
+}

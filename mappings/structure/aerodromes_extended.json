@@ -1,7 +1,28 @@
 {
   "rules":[
+      {
+      "name":"osm_aerodromes_points",
+      "filter":{
+        "aeroway":["aerodrome","international"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"POINT"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "type":{"name":"type", "type":"STRING"},
+        "name":{"name":"name", "type":"STRING"},
+        "aeroway":{"name":"aeroway", "type":"STRING"},
+        "iata":{"name":"iata", "type":"STRING"},
+        "icao":{"name":"icao", "type":"STRING"},
+        "operator":{"name":"operator", "type":"STRING"},
+        "aerodrome_type":{"name":"aerodrome_type", "type":"STRING"},
+        "length":{"name":"length", "type":"STRING"},
+        "source":{"name":"source", "type":"STRING"}
+      }
+    },
     {
-      "name":"osm_aerodromes",
+      "name":"osm_aerodromes_polygons",
       "filter":{
         "aeroway":["aerodrome","international"]
       },
@@ -16,11 +37,34 @@
         "iata":{"name":"iata", "type":"STRING"},
         "icao":{"name":"icao", "type":"STRING"},
         "operator":{"name":"operator", "type":"STRING"},
-        "aerodrome_type":{"name":"aerodrome_type", "type":"STRING"}
+        "aerodrome_type":{"name":"aerodrome_type", "type":"STRING"},
+        "length":{"name":"length", "type":"STRING"},
+        "source":{"name":"source", "type":"STRING"}
       }
     },
     {
-      "name":"osm_aerodromes_international",
+      "name":"osm_aerodromes_points_international",
+      "filter":{
+        "aeroway":["international"]
+      },
+      "fields":
+      {
+        "geom":{"name":"geom", "type":"POINT"},
+        "status": {"name":"status", "type":"STRING"},
+        "photos": {"name":"media", "type":"STRING"},
+        "type":{"name":"type", "type":"STRING"},
+        "name":{"name":"name", "type":"STRING"},
+        "aeroway":{"name":"aeroway", "type":"STRING"},
+        "iata":{"name":"iata", "type":"STRING"},
+        "icao":{"name":"icao", "type":"STRING"},
+        "operator":{"name":"operator", "type":"STRING"},
+        "aerodrome_type":{"name":"aerodrome_type", "type":"STRING"},
+        "length":{"name":"length", "type":"STRING"},
+        "source":{"name":"source", "type":"STRING"}
+      }
+    },
+    {
+      "name":"osm_aerodromes_polygons_international",
       "filter":{
         "aeroway":["international"]
       },
@@ -35,7 +79,9 @@
         "iata":{"name":"iata", "type":"STRING"},
         "icao":{"name":"icao", "type":"STRING"},
         "operator":{"name":"operator", "type":"STRING"},
-        "aerodrome_type":{"name":"aerodrome_type", "type":"STRING"}
+        "aerodrome_type":{"name":"aerodrome_type", "type":"STRING"},
+        "length":{"name":"length", "type":"STRING"},
+        "source":{"name":"source", "type":"STRING"}
       }
     }
   ]
