@@ -83,6 +83,16 @@
         "geom":{"name":"geom","type":"POLYGON"},
         "name":{"name":"name", "type":"STRING"}
       }
+    },
+    {
+      "name":"osm_landuse_village_green",
+      "filter":{
+        "landuse":["village_green"]
+      },
+      "fields":{
+        "geom":{"name":"geom","type":"POLYGON"},
+        "name":{"name":"name", "type":"STRING"}
+      }
     }
   ]
 }
